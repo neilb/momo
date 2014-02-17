@@ -100,22 +100,21 @@ sub tap {
 
 =head1 NAME
 
-Momo,a simple oop module inspired from Mojo::Base and Moo.
+Momo - a simple OO module inspired from Mojo::Base and Moo
 
 =head1 SYNOPSIS
 
-    
     package Person;
-
-    use Momo;
     
+    use Momo;
+        
     has name => 'james'; # if not set,default set james
     has [qw(age sex)];
-
+    
     sub new{
         say "I'm a Person";
     }
-
+    
     1;
 
 =head1 DESCRIPTION
